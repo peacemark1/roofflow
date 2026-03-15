@@ -3,5 +3,10 @@
   "outputDirectory": "dist",
   "installCommand": "npm install",
   "framework": "vite",
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }],
+  "env": {
+    "VITE_API_URL": "https://roofflow-backend.vercel.app",
+    "VITE_SUPABASE_URL": "https://tkiklmfhlphtixirzwfl.supabase.co",
+    "VITE_SUPABASE_ANON_KEY": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InRraWtsbWZobHBodGl4aXJ6d2ZsIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzM0OTk1NTIsImV4cCI6MjA4OTA3NTU1Mn0.XGY7V_ZCVQd8vmlmOeYATAMDzeRNWI_q4Z-KAmg-ABY"
+  }
 }
